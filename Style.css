@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    
+
     font-family: 'poppins';
 }
 
@@ -38,7 +38,7 @@ Header{
 
 Header .logo{
 
-    
+
     height: 150px;
     width: auto;
     text-align: center;
@@ -154,6 +154,8 @@ Header .logo{
     max-width: 570px;
 }
 
+
+
 .MisionVision{
 
     display: flex;
@@ -253,7 +255,7 @@ Header .logo{
 }
 
 .Segmento img{
-    
+
     height: 300px;
     width: 300px;
     border-radius: 20px;
@@ -266,7 +268,7 @@ Header .logo{
 }
 
 .Segmento img:hover{
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .Anfitrion{
@@ -293,7 +295,7 @@ Header .logo{
 }
 
 .Planes .container{
-    
+
     justify-content: center;
     align-items: center;
     background-color: #53105C;
@@ -315,7 +317,7 @@ Header .logo{
     margin-bottom: 60px;
 
 }
-  
+
 .card-image{
 
     height: 500px;
@@ -323,7 +325,7 @@ Header .logo{
     border-radius: 10px 10px 0 0;
 
 }
-  
+
 .card:hover .card-image {
 
     transform: scale(1.1);
@@ -337,7 +339,7 @@ Header .logo{
     object-fit: cover;
 
 }
-  
+
 .card-content {
 
     position: absolute;
@@ -352,9 +354,9 @@ Header .logo{
     opacity: 0;
 
 }
-  
+
 .card:hover .card-content {
-    
+
     opacity: 1;
 
 }
@@ -365,7 +367,7 @@ Header .logo{
     font-size: 1.5rem;
 
 }
-  
+
 .card-content p {
 
     margin: 0;
@@ -403,7 +405,7 @@ Header .logo{
         height: auto;
         margin-bottom: 0px;
         margin-left: 30px;
-    
+
     }
 
     .Logo_TBF{
@@ -417,7 +419,7 @@ Header .logo{
         display: flex;
         margin-top: 40px;
         margin-right: 20px;
-        
+
     }
 
 
@@ -445,9 +447,9 @@ Header .logo{
         padding-top:150px;
         padding-bottom: 150px;
         background-color: #53105C;
-    
+
     }
-    
+
 
     .MisionVision .container{
 
@@ -465,7 +467,7 @@ Header .logo{
 
         width: 100%;
         object-fit: cover;
-    
+
     }
 
     .capa{
@@ -475,7 +477,7 @@ Header .logo{
         height: 100%;
         background: #1c1c1d;
         opacity: 0.5;
-    
+
     }
 
     .Vision{
@@ -485,18 +487,18 @@ Header .logo{
     }
 
     .Anfitrion{
-        
+
         display: flex;
         justify-content: space-between;
         width: 100%;
-    
+
     }
 
     .Público{
 
         display: flex;
         width: 100%;
-        
+
     }
 
     .Segmento{
@@ -513,6 +515,88 @@ Header .logo{
         align-items: center;
         max-width: 1000px;
 
+    }
+
+    .AboutUs{
+        padding-top:150px;
+        padding-bottom: 150px;
+    }
+
+    .AboutUs .container{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        align-items: center;
+        max-width: 1000px;
+
+    }
+
+    .AboutUs{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color:ghostwhite;
+    }
+
+    .AboutUs img{
+
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 10px 10px 15px black;
+        margin-bottom: 40px;
+        transition: transform .2s;
+
+
+    }
+
+    .AboutUs img:hover{
+        transform: scale(1.2);
+    }
+
+    .Orlando{
+
+
+        margin-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .Orlando h1{
+        margin-bottom: 20px;
+    }
+
+    .Raul{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 70px;
+    }
+
+    .Raul h1{
+
+        margin-bottom: 20px;
+    }
+
+    .Isabella{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 70px;
+    }
+
+    .Isabella h1{
+
+        margin-bottom: 20px;
     }
 
     .textoAnfitrion{
@@ -542,7 +626,7 @@ Header .logo{
     }
 
     .Planes .container{
-        
+
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -557,12 +641,34 @@ Header .logo{
 @media(min-width: 810px){
 
     .header .links a{
-        
+
         font-size: 11.5px;
 
     }
+}
 
+.videoProduct{
+    width:100%;
+}
 
+.AboutTheProduct{
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.AboutTheProduct .container{
+
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutTheProduct h1{
+    text-align: center;
+    padding-bottom: 20px;
 
 
 }
+
