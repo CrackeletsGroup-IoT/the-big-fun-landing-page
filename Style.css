@@ -81,6 +81,79 @@ Header .logo{
     cursor: pointer;
 
 }
+
+
+.Hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 450px;
+    background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+    ),
+    url('Imagenes/Fiestas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Hero button{
+
+
+    font-family: poppins;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #9cecef;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Hero button:hover{
+
+    background-color: #F6EB0F;
+
+}
+
+.Hero h1{
+
+    color: antiquewhite;
+    padding-bottom: 50px;
+}
+
+.QuienesSomos{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color:ghostwhite;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.QuienesSomos img{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.QuienesSomos .parrafo{
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 570px;
+}
+
 /Organizadoor/
 
 .ComoOrganizador{
@@ -301,10 +374,20 @@ Header .logo{
 
     }
 
-
     .header .links a{
         font-size: 9px;
         margin-left: 40px;
+    }
+
+    .Hero{
+
+        height: 600px;
+        padding-top: 120px;
+    }
+
+    .QuienesSomos{
+        padding-top:150px;
+        padding-bottom: 150px;
     }
 
     /Organizadoor/
