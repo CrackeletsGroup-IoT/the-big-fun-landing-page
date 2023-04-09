@@ -154,7 +154,7 @@ Header .logo{
     max-width: 570px;
 }
 
-/Organizadoor/
+/*Organizadoor*/
 
 .ComoOrganizador{
 
@@ -171,8 +171,6 @@ Header .logo{
 }
 
 .ComoOrganizador .container{
-
-
     max-width: 900px;
     position: relative;
     z-index: 2;
@@ -238,11 +236,11 @@ Header .logo{
     margin-bottom: 40px;
 }
 
-/Organizadoor/
+/*Organizadoor*/
 
 
 
-/Publico/
+/*Publico*/
 
 .ComoPublico{
     margin-top: 15px;
@@ -326,7 +324,7 @@ Header .logo{
     margin-bottom: 40px;
 }
 
-/Publico/
+/*Publico*/
 .AboutUs{
 
     display: flex;
