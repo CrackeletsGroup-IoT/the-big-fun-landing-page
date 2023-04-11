@@ -326,32 +326,18 @@ Header .logo{
 
 /*Publico*/
 .AboutUs{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color:ghostwhite;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .AboutUs img{
 
-    height: 250px;
-    width: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 10px 10px 15px black;
-    margin-bottom: 40px;
-    transition: transform .2s;
 
 
 }
 
 .AboutUs img:hover{
-    transform: scale(1.2);
+
 }
 
 .Orlando{
@@ -707,3 +693,35 @@ Header .logo{
     padding-bottom: 20px;
 }
 
+.team-designer{
+    display: flex;
+    height: 20rem;
+    gap:1rem
+}
+
+.team-designer > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    opacity: 0.7;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.team-designer>div>h2{
+    height: 100%;
+    opacity: 0;
+    font-family: poppins;
+}
+
+.team-designer > div:hover{
+    flex: 2;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+.team-designer>div>h2:hover{
+    opacity: 1;
+}
