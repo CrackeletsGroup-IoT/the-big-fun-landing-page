@@ -26,11 +26,11 @@
 
             <div class="links">
                 <nav>
-                    <a href="#QuienesSomos2"><h1>Quienes Somos</h1></a>
-                    <a href="#ComoOrganizador"><h1>Organizador</h1></a>
-                    <a href="#ComoPublico"><h1>Público</h1></a>
-                    <a href="#AboutUs"><h1>Team Designer</h1></a>
-                    <a href="#Planes"><h1>Suscripciones</h1></a>
+                    <a href="#QuienesSomos2"><h1 aria-label="Presentation of the web application">Quienes Somos</h1></a>
+                    <a href="#ComoOrganizador"><h1 aria-label="Promotion for the organizer">Organizador</h1></a>
+                    <a href="#ComoPublico"><h1 aria-label="Promotion for the public">Público</h1></a>
+                    <a href="#AboutUs"><h1 aria-label="Presentation of the development team">Team Designer</h1></a>
+                    <a href="#Planes"><h1 aria-label="Kind of subscriptions">Suscripciones</h1></a>
 
                 </nav>
             </div>
@@ -38,15 +38,15 @@
 
     </Header>
     
-    <section id = "Hero2" class="Hero">  
+    <section id = "Hero2" class="Hero">
         <h1>¡Sal, disfruta y baila!</h1>
-        <button>COMENZAR</button>
+        <button aria-label="Button to WebSite">COMENZAR</button>
     </section>
     
-    <section id = "QuienesSomos2" class="QuienesSomos">
+    <section id = "QuienesSomos2" class="QuienesSomos" aria-label="Who we are section">
         
         <div class="container">
-            <img src="logo/TheBigFun.png" alt="">
+            <img src="logo/TheBigFun.png" alt="Logo image">
 
             <div class="parrafo"> <p>Bienvenido a The big fun, gracias a
                 nuestra aplicación podras salir todos los fines de semana
@@ -59,19 +59,19 @@
 
     </section>
 
-    <section id = "ComoOrganizador" class="ComoOrganizador">
+    <section id = "ComoOrganizador" class="ComoOrganizador" aria-label="Section of organizers">
 
-        <video src="Videos/Organizador.mp4" onloadedmetadata="this.muted = true" autoplay loop></video>
+        <video src="Videos/Organizador.mp4" onloadedmetadata="this.muted = true" autoplay loop aria-label="Video of people making a toast"></video>
 
         <div class="container">
 
             <div class="Organizador_Imagen">
 
-                <img src="Imagenes/photographed-alain-strassberg.jpg" alt="">
+                <img src="Imagenes/photographed-alain-strassberg.jpg" alt="Discotheque image">
 
             </div>
 
-            <div class="Organizador">
+            <div class="Organizador" aria-label="Promotion for the organizer">
 
                 <h1>Organizador</h1>
 
@@ -95,11 +95,11 @@
 
             <div class="Publico_Imagen">
 
-                <img src="Imagenes/skyairline_skyairline_image_28-1536x1026.jpeg" alt="">
+                <img src="Imagenes/skyairline_skyairline_image_28-1536x1026.jpeg" alt="Party celebration image">
 
             </div>
 
-            <div class="Publico">
+            <div class="Publico" aria-label="Promotion for the organizer">
 
                 <h1>Público</h1>
 
@@ -116,12 +116,12 @@
     </section>
 
 
-    <section id = "Planes" class = "Planes">
+    <section id = "Planes" class = "Planes" aria-label="Plans section">
 
-        <div class="container">
-            <div class="card">
+        <div class="container" >
+            <div class="card" aria-label="General subscription">
                 <div class="card-image">
-                    <img src="Imagenes/Plan general.jpg" alt="Card Image">
+                    <img src="Imagenes/Plan general.jpg" alt="People dancing in party image">
                 </div>
                 <div class="card-content">
                     <h2>Suscripción general</h2>
@@ -130,11 +130,11 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" aria-label="Vip subscription">
                 <div class="card-image">
-                    <img src="Imagenes/Plan vip.jpg" alt="Card Image">
+                    <img src="Imagenes/Plan vip.jpg" alt="DJ image">
                 </div>
-                <div class="card-content">
+                <div class="card-content" >
                     <h2>Suscripción VIP</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facilis possimus voluptatem, iure ipsum temporibus quaerat
                         quam, vero repudiandae ipsam qu</p>
@@ -145,27 +145,48 @@
 
     </section>
 
-    <section id = "AboutUs" class="AboutUs">
+    <section id = "AboutUs" class="AboutUs" aria-label="Presentation of the development team section">
 
         <h1>TEAM DESIGNER</h1>
         <br>
 
         <div class="team-designer">
-            <div style="background-image: url('About Us fotos/Diego.jpeg');"><h2>Diego</h2></div>
-            <div style="background-image: url('About Us fotos/Isabella.png');"><h2>Isabella</h2></div>
-            <div style="background-image: url('About Us fotos/Kevin.jpg');"><h2>Kevin</h2></div>
-            <div style="background-image: url('About Us fotos/Orlando.jpg');"><h2>Orlando</h2></div>
-            <div style="background-image: url('About Us fotos/Raul.jpg');"><h2>Raul</h2></div>
+            <div style="background-image: url('About Us fotos/Diego.jpeg');"><h2 aria-label="First member of the team">Diego</h2></div>
+            <div style="background-image: url('About Us fotos/Isabella.png');"><h2 aria-label="Second member of the team">Isabella</h2></div>
+            <div style="background-image: url('About Us fotos/Kevin.jpg');"><h2 aria-label="Third member of the team">Kevin</h2></div>
+            <div style="background-image: url('About Us fotos/Orlando.jpg');"><h2 aria-label="Fourth member of the team">Orlando</h2></div>
+            <div style="background-image: url('About Us fotos/Raul.jpg');"><h2 aria-label="Five member of the team">Raul</h2></div>
         </div>
 
     </section>
 
-    <section id="AboutTheProduct" class="AboutTheProduct">
-        <div class="container">
-            <h1 class="textAbout">ABOUT THE PRODUCT VIDEO</h1>
-            <video src="Videos/Organizador.mp4" type="video/mp4" class="videoProduct" onloadedmetadata="this.muted = true" autoplay loop>V</video>
-        </div>
-    </section>
+    <div class="MediaSection" aria-label="presentation videos section">
+        <section id="AboutTheProduct" class="AboutThe" aria-label="Website presentation video">
+            <div class="container">
+                <h1 class="textAbout">ABOUT THE PRODUCT VIDEO</h1>
+                <!--<video src="Videos/Organizador.mp4" type="video/mp4" class="videoProduct" onloadedmetadata="this.muted = true" autoplay loop>V</video>-->
+                <img src="Imagenes/ComingSoon.jpg" class="comingSoon" alt="Coming soon image">
+            </div>
+        </section>
+
+        <section id="AboutTheTeam" class="AboutThe" aria-label="Development team presentation video">
+            <div class="container">
+                <h1 class="textAbout">ABOUT THE TEAM VIDEO</h1>
+                <!--<video src="Videos/Video-Fiesta.mp4" type="video/mp4" class="videoProduct" onloadedmetadata="this.muted = true" autoplay loop>V</video>-->
+                <img src="Imagenes/ComingSoon.jpg" class="comingSoon" alt="Coming soon image">
+            </div>
+        </section>
+    </div>
+
+    <footer style="padding:10px 20px;" aria-label="Footer section">
+        <p>&copy;DESIGNED BY
+            <a href="#AboutUs">
+                <u>THE CRACKELETS GROUP</u>
+            </a>
+        </p>
+    </footer>
+
+
     
 </body>
 </html>
