@@ -755,8 +755,8 @@ footer p{
     font-family: poppins;
     font-size: small;
 }
-
-footer p a{
-
+.smimg{
+    margin-top:5px;
+    height: 30px;
 }
 
